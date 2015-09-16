@@ -1,9 +1,9 @@
 {
-  "name"           : "angular-flash",
+  "name"           : "angular-bootstrap-flash",
   "version"        : "1.2.0",
-  "description"    : "Angular.js Flash Messages",
-  "keywords"       : [ "angular", "js", "flash", "messages" ],
-  "author"         : "Guilherme J. Tramontina <guilherme.tramontina@gmail.com>",
+  "description"    : "Angular.js Bootstrap Flash Messages",
+  "keywords"       : [ "angular", "js", "flash", "messages", "bootstrap" ],
+  "author"         : "Guilherme J. Tramontina <guilherme.tramontina@gmail.com> H3xed <marczynski.net@gmail.com>",
   "readmeFilename" : "README.md",
   "dependencies"   : {
     "angular"      : "~1",

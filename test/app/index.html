@@ -3,7 +3,7 @@
   <head>
     <script src="components/angular/angular.js"></script>
     <script src="components/angular-route/angular-route.js"></script>
-    <script src="angular-flash.js"></script>
+    <script src="angular-bootstrap-flash.js"></script>
     <script>
       angular.module('flash.e2e', ['flash', 'ngRoute'])
       .config(function($routeProvider) {
@@ -30,12 +30,12 @@
         $scope.goEditMultipleTypes = function() {
           flash([
             'Yay!',
-            { level: 'error', text: 'Something went wrong!' }
+            { level: 'danger', text: 'Something went wrong!' }
           ]);
           $scope.goEdit();
         };
         $scope.goEditFailure = function() {
-          flash('error', 'Something went wrong!');
+          flash('danger', 'Something went wrong!');
           $scope.goEdit();
         };
       })
@@ -51,10 +51,10 @@
         $scope.saveMultipleTypes = function() {
           flash([
             'Yay!',
-            { level: 'error', text: 'Something went wrong!' }
+            { level: 'danger', text: 'Something went wrong!' }
           ]);
         };
-        $scope.saveFailure = function() { flash('error', 'Something went wrong!'); };
+        $scope.saveFailure = function() { flash('danger', 'Something went wrong!'); };
       });
     </script>
   </head>
@@ -85,4 +85,3 @@
     <article ng:view />
   </body>
 </html>
-
