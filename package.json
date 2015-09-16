@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap-angular-flash",
+  "name": "angular-bootstrap-flash",
   "version": "1.2.0",
   "main": "angular-bootstrap-flash.js",
   "description": "Angular.js Bootstrap Flash Messages",
