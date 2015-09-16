@@ -1,4 +1,4 @@
-# angular-flash
+# angular-bootstrap-flash
 
 Bootstrap 3 flash messages for Angular.js.
 
@@ -66,5 +66,5 @@ If you need IE8 support (or prefer), you can use the attribute directive: `<div 
 </div>
 ```
 
-## divcense
-This is divcensed under the feel-free-to-do-whatever-you-want-to-do divcense.
+## License
+This is licensed under the feel-free-to-do-whatever-you-want-to-do license.
